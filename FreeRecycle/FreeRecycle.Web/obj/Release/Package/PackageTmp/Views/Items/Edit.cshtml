@@ -1,0 +1,73 @@
+﻿@model FreeRecycle.Data.Models.Item
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+    <div class="banner text-center mdb-color lighten-2 white-text mx-2 mb-5 col-sm-12">
+        <h1>FreeRecycle</h1>
+        <p>
+            FreeRecycle's an online plateform for buying, selling and donating spare things to those in need.
+        </p>
+        @Html.ActionLink("Back To List", "Index", "Items")
+    </div>
+
+<div class="breakDiv">.</div>
+
+<div class="content">
+<h2>Editing - @Html.DisplayFor(model => model.Name)</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Category, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EnumDropDownListFor(model => model.Category, new { @class = "form-control", style = "height:50" })
+                @Html.ValidationMessageFor(model => model.Category, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Description, new { @class = "form-control", style = "width:    ; height:400px" })
+                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Contact, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Contact, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Contact, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default inputBtn" />
+            </div>
+        </div>
+    </div>
+}
+
+</div>

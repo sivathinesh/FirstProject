@@ -1,0 +1,11 @@
+C:\Users\thine\Desktop\github\FreeRecycle\FreeRecycle.Data\bin\Debug\FreeRecycle.Data.dll
+C:\Users\thine\Desktop\github\FreeRecycle\FreeRecycle.Data\bin\Debug\FreeRecycle.Data.pdb
+C:\Users\thine\Desktop\github\FreeRecycle\FreeRecycle.Data\obj\Debug\FreeRecycle.Data.dll
+C:\Users\thine\Desktop\github\FreeRecycle\FreeRecycle.Data\obj\Debug\FreeRecycle.Data.pdb
+C:\Users\thine\Desktop\github\FreeRecycle\FreeRecycle.Data\bin\Debug\FreeRecycle.Data.dll.config
+C:\Users\thine\Desktop\github\FreeRecycle\FreeRecycle.Data\bin\Debug\EntityFramework.dll
+C:\Users\thine\Desktop\github\FreeRecycle\FreeRecycle.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\thine\Desktop\github\FreeRecycle\FreeRecycle.Data\bin\Debug\EntityFramework.xml
+C:\Users\thine\Desktop\github\FreeRecycle\FreeRecycle.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\thine\Desktop\github\FreeRecycle\FreeRecycle.Data\obj\Debug\FreeRecycle.Data.csproj.CopyComplete
+C:\Users\thine\Desktop\github\FreeRecycle\FreeRecycle.Data\obj\Debug\FreeRecycle.Data.csprojAssemblyReference.cache

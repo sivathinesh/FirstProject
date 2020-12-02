@@ -1,0 +1,121 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    height: 100%;
+    background-color: #d3cdcd
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+.inputBtn{
+    width: 100px;
+    height: 50px;
+}
+
+.indexbanner {
+    margin: 15% 0% 20% 0%;
+    padding: 9%;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.indexbanner h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 500%;
+    color: black;
+    text-shadow: 2px 2px #808080;
+}
+
+.indexbanner p {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        color: black;
+}
+
+.content {
+    background-color: white;
+    padding: 10%;
+}
+
+.breakDiv {
+    background-color: #b4b4b4;
+}
+
+.banner {
+    padding: 9%;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+}
+
+    .banner h1 {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 500%;
+        color: black;
+        text-shadow: 2px 2px #808080;
+    }
+.banner a:link, a {
+    background-color: #bebdbd;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+}
+
+    .banner a:hover, a:active {
+        background-color: #b4b4b4;
+        color: black;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+.indexbanner a:link, a {
+    background-color: #bebdbd;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+}
+
+.indexbanner a:hover, a:active {
+    background-color: #b4b4b4;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.cut-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0;
+    padding: 0 0 5% 0;
+
+
+}

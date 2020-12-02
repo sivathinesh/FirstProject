@@ -1,0 +1,27 @@
+﻿@model IEnumerable<FreeRecycle.Data.Models.Item>
+
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="indexbanner text-center mdb-color lighten-2 white-text mx-2 mb-5 col-sm-12">
+
+                <h1>FreeRecycle</h1>
+                <p>FreeRecycle's an online plateform for buying, selling and donating spare things to those in need.</p>
+                <p>
+                    There are currently (@Model.Count()) items available on our site. Please do feel free to add more items to the list or browse and contact for the items that you are interested.
+                </p>
+                @Html.ActionLink("View All Items", "Index", "Items")
+            </div>
+        </div>
+    </div>
+       
+
+
+
